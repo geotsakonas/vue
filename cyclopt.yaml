@@ -6,4 +6,4 @@ modules:
     - path: "/src/core"
       violations:
         exclude:
-          - Disallow Undeclared Variables
+          - Disallow Unused Variables
