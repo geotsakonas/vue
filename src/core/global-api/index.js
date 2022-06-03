@@ -9,21 +9,7 @@ import { set, del } from '../observer/index'
 import { ASSET_TYPES } from 'shared/constants'
 import builtInComponents from '../components/index'
 import { observe } from 'core/observer/index'
-
-import {
-  warn,
-  extend,
-  nextTick,
-  mergeOptions,
-  defineReactive
-} from '../util/index'
-
-export function initGlobalAPI (Vue: GlobalAPI) {
-  // config
-  const configDef = {}
-  configDef.get = () => config
-  if (process.env.NODE_ENV !== 'production') {
-    configDef.set = () => {
+() => {
       warn(
         'Do not replace the Vue.config object, set individual fields instead.'
       )
