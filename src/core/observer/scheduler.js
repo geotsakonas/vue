@@ -8,19 +8,7 @@ import {
   warn,
   nextTick,
   devtools,
-  inBrowser,
-  isIE
-} from '../util/index'
-
-export const MAX_UPDATE_COUNT = 100
-
-const queue: Array<Watcher> = []
-const activatedChildren: Array<Component> = []
-let has: { [key: number]: ?true } = {}
-let circular: { [key: number]: number } = {}
-let waiting = false
-let flushing = false
-let index = 0
+  inBro
 
 /**
  * Reset the scheduler's state.
