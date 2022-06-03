@@ -7,3 +7,4 @@ modules:
       violations:
         exclude:
           - Disallow Unused Variables
+          - disallow variable redeclaration
