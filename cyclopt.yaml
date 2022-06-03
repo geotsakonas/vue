@@ -4,8 +4,6 @@ global:
             - Missing Module Docstring
 modules:
     - path: "/src/core"
-      languages:
-        - Python
       violations:
         exclude:
           - Disallow Undeclared Variables
