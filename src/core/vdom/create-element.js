@@ -10,13 +10,7 @@ import {
   isDef,
   isUndef,
   isTrue,
-  isObject,
-  isPrimitive,
-  resolveAsset
-} from '../util/index'
-
-import {
-  normalizeChildren,
+  isObject,ren,
   simpleNormalizeChildren
 } from './helpers/index'
 
