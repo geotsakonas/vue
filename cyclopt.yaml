@@ -2,6 +2,11 @@ global:
     violations:
         exclude: 
             - Missing Module Docstring
+    metrics:
+        exclude:
+            - /src/server/**/*
+            - /src/platforms/web/entry-runtime.js
+      
 modules:
     - path: "/src/core"
       violations:
