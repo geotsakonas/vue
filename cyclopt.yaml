@@ -4,7 +4,7 @@ global:
             - Missing Module Docstring
     metrics:
         exclude:
-            - /src/server/**/*
+            - /src/server/
             - /src/platforms/web/entry-runtime.js
       
 modules:
